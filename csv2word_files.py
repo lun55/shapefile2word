@@ -25,11 +25,13 @@ for file in os.listdir(csv_folder):
 
         # 创建 Word 文档
         doc = Document()
-        grouped = df.groupby("Filename")
+        # 按Filename分组处理
+        grouped = df.groupby(["Filename", "Filename_zh"])  # 同时按中文名分组
 
-        for filename, group in grouped:
-            # 添加标题
-            doc.add_heading(u"{}".format(filename.strip("")), level=2)
+        for (filename, filename_zh), group in grouped:
+            # 添加双层标题（英文名+中文名）
+            doc.add_heading(f"{filename}", level=2)  # 英文图层名
+            doc.add_heading(f"{filename_zh}", level=3)  # 新增中文图层名
 
             # 创建 5 列的表格（不含序号）
             table = doc.add_table(rows=1, cols=5)
