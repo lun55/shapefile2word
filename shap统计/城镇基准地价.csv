@@ -1,0 +1,12 @@
+Filename,FieldName,FieldAlias,Type,Length,Scale
+全市城镇建设用地基准地价 (1).shp,FID,FID,OID,4,0
+全市城镇建设用地基准地价 (1).shp,Shape,Shape,Geometry,0,0
+全市城镇建设用地基准地价 (1).shp,YT,YT,String,50,0
+全市城镇建设用地基准地价 (1).shp,TDJB,TDJB,String,20,0
+全市城镇建设用地基准地价 (1).shp,QPBH,QPBH,String,50,0
+全市城镇建设用地基准地价 (1).shp,RJL,RJL,Single,0,0
+全市城镇建设用地基准地价 (1).shp,DMJ,DMJ,Integer,10,0
+全市城镇建设用地基准地价 (1).shp,LMJ,LMJ,Integer,10,0
+全市城镇建设用地基准地价 (1).shp,BZ,BZ,String,254,0
+全市城镇建设用地基准地价 (1).shp,XZQ,XZQ,String,20,0
+全市城镇建设用地基准地价 (1).shp,区片编号,区片编号,String,20,0
